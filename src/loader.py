@@ -2,7 +2,7 @@ import pandas as pd
 
 def load_dataset(file_path):
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, header=None)
         return df
     except Exception as e:
         raise

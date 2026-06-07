@@ -1,4 +1,4 @@
-def get_overview(df):
+def overview_report(df):
     overview = {
         'num_rows': df.shape[0],
         'num_columns': df.shape[1],

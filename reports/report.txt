@@ -1,0 +1,130 @@
+EDA REPORT
+========================================
+
+OVERVIEW
+--------------------
+Rows: 16281
+Columns: 15
+
+DUPLICATES
+--------------------
+Duplicate Rows: 5
+Duplicate Percentage: 0.03%
+
+MISSING VALUES
+--------------------
+Columns With Missing Values: 0
+No missing values detected.
+
+STATISTICS
+--------------------
+NUMERICAL STATISTICS:
+
+Column: 0
+Mean: 38.76745900128985
+Median: 37.0
+Standard Deviation: 13.849186814264343
+Min: 17
+Max: 90
+Count: 16281
+
+
+Column: 2
+Mean: 189435.6777839199
+Median: 177831.0
+Standard Deviation: 105714.90767083269
+Min: 13492
+Max: 1490400
+Count: 16281
+
+
+Column: 4
+Mean: 10.07290706959032
+Median: 10.0
+Standard Deviation: 2.5675452586676824
+Min: 1
+Max: 16
+Count: 16281
+
+
+Column: 10
+Mean: 1081.9051041090843
+Median: 0.0
+Standard Deviation: 7583.935967887084
+Min: 0
+Max: 99999
+Count: 16281
+
+
+Column: 11
+Mean: 87.89926908666544
+Median: 0.0
+Standard Deviation: 403.10528562931455
+Min: 0
+Max: 3770
+Count: 16281
+
+
+Column: 12
+Mean: 40.392236349118605
+Median: 40.0
+Standard Deviation: 12.479332247112273
+Min: 1
+Max: 99
+Count: 16281
+
+CATEGORICAL STATISTICS:
+
+Column: 1
+Unique Values: 9
+Most Frequent Value:  Private
+Frequency: 11210
+
+
+Column: 3
+Unique Values: 16
+Most Frequent Value:  HS-grad
+Frequency: 5283
+
+
+Column: 5
+Unique Values: 7
+Most Frequent Value:  Married-civ-spouse
+Frequency: 7403
+
+
+Column: 6
+Unique Values: 15
+Most Frequent Value:  Prof-specialty
+Frequency: 2032
+
+
+Column: 7
+Unique Values: 6
+Most Frequent Value:  Husband
+Frequency: 6523
+
+
+Column: 8
+Unique Values: 5
+Most Frequent Value:  White
+Frequency: 13946
+
+
+Column: 9
+Unique Values: 2
+Most Frequent Value:  Male
+Frequency: 10860
+
+
+Column: 13
+Unique Values: 41
+Most Frequent Value:  United-States
+Frequency: 14662
+
+
+Column: 14
+Unique Values: 2
+Most Frequent Value:  <=50K.
+Frequency: 12435
+
