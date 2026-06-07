@@ -1,19 +1,9 @@
-def duplicates(df):
-    duplicates_report = df.duplicated().sum()
+def duplicates_report(df):
 
-    duplicates_report = duplicates_report[duplicates_report > 0]
-    duplicates_percent = (duplicates_report / len(df)) * 100
-     
-    duplicates_details = {}
+    duplicate_count = df.duplicated().sum()
+    duplicate_percent = (duplicate_count / len(df)) * 100
 
-    for column in duplicates_report.index:
-        duplicates_details[column] = {
-            "count": int(duplicates_report[column]),
-            "percentage": round(float(duplicates_percent[column]), 2)
-        }
-    
     return {
-        "duplicates": duplicates_details,
-        "total_duplicates": duplicates_details["count"].sum(),
-        "percentage_duplicates": round(float(duplicates_percent.sum()), 2)
+        'duplicate_count': int(duplicate_count),
+        'duplicate_percent': round(float(duplicate_percent), 2)
     }
